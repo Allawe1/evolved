@@ -1,0 +1,82 @@
+.cartPage {
+  text-align: center;
+  background-color: #fca2d5;
+  height: 600px;
+  top: 0;
+  margin-bottom: 600px;
+}
+
+.cartPage h1 {
+  font-size: 3rem;
+  font-weight: 400;
+  font-family: cursive;
+  color: #385efc;
+  line-height: 68px;
+  padding-right: 25%;
+  padding-top: 4%;
+}
+.cartTable {
+  width: 65%;
+  height: 40%;
+}
+
+.tableDiv {
+  margin-left: 25%;
+  margin-top: 3%;
+}
+thead th:first-child {
+  border-top-left-radius: 15px;
+}
+thead th:last-child {
+  border-top-right-radius: 15px;
+}
+tbody tr:last-child > td:first-child {
+  border-bottom-left-radius: 15px;
+}
+tbody tr:last-child > td:last-child {
+  border-bottom-right-radius: 15px;
+}
+
+.btnDiv button {
+  background-color: #385efc;
+  color: #ffc09e;
+  width: 15%;
+  float: none;
+  font-weight: 700;
+  box-shadow: none;
+  text-shadow: none;
+  border-radius: 24px !important;
+  height: 50px;
+  border-width: 0;
+  margin-top: 2%;
+}
+.btnDiv button:hover {
+  background-color: pink;
+  transition: background 0.4s linear;
+  -webkit-transition: background 0.4s linear;
+  -moz-transition: background 0.4s linear;
+  -o-transition: background 0.4s linear;
+  -ms-transition: background 0.4s linear;
+  color: #385efc;
+}
+
+.emptyDiv {
+  text-align: center;
+  height: 100px;
+  top: 0;
+  margin-bottom: 360px;
+}
+.emptyDiv h1 {
+  background-color: #fec0a1;
+  padding-bottom: 2%;
+  font-size: 20px;
+  font-family: cursive;
+  padding-top: 2%;
+}
+.emptyDiv hr {
+  margin-top: -8px;
+  height: 2px;
+  border-width: 0;
+  color: darkblue;
+  background-color: darkblue;
+}

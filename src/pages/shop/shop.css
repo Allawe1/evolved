@@ -1,0 +1,28 @@
+div.mainShop {
+  text-align: center;
+  padding-bottom: 100%;
+  background-color: white;
+}
+div.circle {
+  width: 125px;
+  height: 125px;
+  line-height: 125px;
+  border-radius: 50%;
+  color: #fff;
+  text-align: center;
+  background: pink;
+  font-size: 20px;
+  margin: 0 0.5%;
+  color: #385efc;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+.row {
+  justify-content: center;
+  padding: 6%;
+}
+div.circle h1 {
+  margin: auto;
+  line-height: 51px;
+  vertical-align: middle;
+}

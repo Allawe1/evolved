@@ -1,0 +1,126 @@
+.footer {
+  background-color: #385efc;
+  height: 600px;
+  text-align: center;
+}
+.footer p {
+  padding-top: 4%;
+  font-family: cursive;
+  font-size: 30px;
+  color: #fca2d5;
+  font-weight: bold;
+  margin-bottom: -2%;
+}
+.footerContainer {
+  position: relative;
+  width: 50%;
+}
+.footerContainer Button {
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  color: white;
+  font-size: 25px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  width: 30%;
+  width: 60%;
+  color: #385efc;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.footerContainer Button:hover {
+  color: #385efc;
+}
+
+.shopFooter {
+  width: 275px;
+  height: 303px;
+}
+.homeFooter {
+  width: 275px;
+  height: 303px;
+}
+
+.aboutFooter {
+  width: 304px;
+  height: 320px;
+}
+.contactFooter {
+  width: 297px;
+  height: 294px;
+}
+.shopBtn {
+}
+@media screen and (max-width: 780px) {
+  .shopFooter {
+    margin-left: 100px;
+    width: 180px;
+    height: 180px;
+  }
+  .homeFooter {
+    margin-top: -30px;
+    margin-left: -50px;
+    width: 180px;
+    height: 180px;
+  }
+
+  .aboutFooter {
+    width: 180px;
+    height: 180px;
+    margin-top: -240px;
+    margin-left: 180px;
+  }
+  .contactFooter {
+    margin-left: 100px;
+    margin-top: -80px;
+    width: 180px;
+    height: 180px;
+    transform: rotate(100deg);
+  }
+  .footerLink {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 0px;
+    margin: 0px;
+    width: 0px;
+    height: 0px;
+    color: #385efc;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+  .shopLink {
+    margin-top: 70px;
+    margin-left: 165px;
+  }
+  .homeLink {
+    margin-left: 45px;
+    margin-top: 30px;
+  }
+  .aboutLink {
+    margin-left: 245px;
+    margin-top: -120px;
+  }
+  .contactLink {
+    margin-left: 150px;
+    margin-top: 0px;
+  }
+  .shopBtn {
+    margin-left: 400px;
+  }
+  .homeBtn {
+    margin-left: 20px;
+    margin-top: 100px;
+  }
+  .aboutBtn {
+  }
+  .contactBtn {
+  }
+}

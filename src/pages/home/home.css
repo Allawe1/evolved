@@ -1,0 +1,227 @@
+div.mainHome {
+  background-color: white;
+  text-align: center;
+  position: relative;
+  padding-bottom: 100%;
+  padding-top: -50px;
+  overflow: hidden;
+}
+div.setion1,
+div.section2,
+div.section3 {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  background-color: white;
+}
+div.section2 {
+  background-color: pink;
+  top: 800px;
+  height: auto;
+}
+div.section3 {
+  background-color: white;
+  top: 1700px;
+}
+div.setion1 {
+  background-color: white; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+.container {
+  position: relative;
+  width: 50%;
+  bottom: 10px;
+  margin-left: -12%;
+}
+#shop-shape-svg {
+  margin-top: -12%;
+  width: 682px;
+  height: 317px;
+}
+.container2 {
+  position: relative;
+  width: 30%;
+  margin-top: -22%;
+  margin-right: 26%;
+  z-index: 12;
+}
+#new-shape-svg {
+  position: relative;
+  margin-left: -12%;
+  width: 664px;
+  height: 604px;
+}
+.container3 {
+  position: relative;
+  width: 50%;
+  margin-top: 4%;
+  margin-left: -2%;
+}
+#contact-shape-svg {
+  margin-top: -52%;
+  margin-right: 5%;
+  width: 575;
+  height: 569;
+}
+#about-shape-svg {
+  margin-top: -50%;
+  width: 570px;
+  height: 570px;
+}
+.container2 .btn {
+  position: absolute;
+  top: 60%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  width: 50%;
+  background-color: #385efc;
+}
+.container3 .btn {
+  position: absolute;
+  top: -10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  width: 30%;
+  background-color: #385efc;
+}
+
+/* Make the image responsive */
+
+/* Style the button and place it in the middle of the container/image */
+.container .btn {
+  position: absolute;
+  top: 30%;
+  left: 58%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  width: 30%;
+  background-color: #385efc;
+}
+
+.container .btn:hover {
+  background-color: pink;
+}
+.container2 .btn:hover {
+  background-color: pink;
+}
+.container3 .btn:hover {
+  background-color: pink;
+}
+
+div.section2 h2 {
+  margin: 5%;
+  font-size: xx-large;
+  font-weight: bold;
+  font-family: "Nunito", sans-serif;
+}
+
+.slider-img {
+  width: 300px;
+  height: 700px;
+}
+.slider-text {
+  font-weight: 600;
+  font-family: "Nunito", sans-serif;
+}
+.slider {
+  margin: 5%;
+}
+
+.section3-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 600px;
+}
+.section3-card {
+  border: none;
+}
+.slider-row {
+  margin: 2% 8%;
+}
+.card-text {
+  text-align: start;
+  margin-top: 2%;
+  font-family: "Mondia", sans-serif;
+}
+
+@media screen and (max-width: 780px) {
+  .container {
+    margin: 0;
+  }
+  .container2 {
+    margin: 0;
+  }
+  .container3 {
+    margin: 0;
+  }
+  #shop-shape-svg {
+    margin-left: -380px;
+    margin-top: -10px;
+    width: 500px;
+    height: 280px;
+  }
+  #new-shape-svg {
+    margin-left: -245px;
+    margin-top: 20px;
+    width: 550px;
+    height: 350px;
+    transform: rotate(10deg);
+  }
+  #contact-shape-svg {
+    margin-top: -120px;
+    margin-left: -120px;
+    width: 550px;
+    height: 350px;
+  }
+  #about-shape-svg {
+    margin-top: -160px;
+    margin-left: -320px;
+    width: 550px;
+    height: 350px;
+  }
+  .btn {
+    display: none;
+  }
+  .section2 {
+    margin-top: -220px;
+    margin-bottom: 500px;
+  }
+  .slider-img {
+    width: 250px;
+    height: 450px;
+  }
+  div.section3 {
+    top: 1400px;
+  }
+  div.mainHome {
+    padding-bottom: 1000px;
+  }
+}

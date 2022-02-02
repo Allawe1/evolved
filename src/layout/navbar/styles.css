@@ -1,0 +1,49 @@
+.start {
+  margin-left: 8%;
+}
+
+.center {
+  margin-left: 23%;
+}
+.left {
+  margin-left: 33%;
+}
+.itemSpace {
+  padding-left: 25px;
+  margin-right: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-size: 12px;
+  color: black;
+}
+
+.iconSpace {
+  padding-left: 10px;
+  margin-right: 10px;
+}
+
+.mobileDiv {
+  display: none;
+}
+@media screen and (max-width: 780px) {
+  .iconSpace {
+    display: none;
+  }
+  .center {
+    display: none;
+  }
+  .mobileDiv {
+    display: table;
+    margin-left: 150px;
+    margin-top: -45px;
+  }
+  .mobileDiv i {
+    display: table-cell;
+    padding-left: 60px;
+  }
+  .itemSpace {
+    margin-left: 40%;
+    margin-bottom: 15px;
+  }
+}

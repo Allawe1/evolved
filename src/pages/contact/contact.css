@@ -1,0 +1,105 @@
+div.mainContact {
+  text-align: center;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  overflow-x: hidden;
+}
+.contactDiv1 {
+  position: relative;
+  background-color: #385efc;
+  height: 120%;
+  padding-bottom: 10%;
+}
+
+div.mainContact h1 {
+  padding-top: 6%;
+  font-weight: 400;
+  line-height: 40px;
+  color: white;
+  font-family: "Abel", sans-serif;
+}
+.mainContact .email {
+  text-transform: uppercase;
+  color: white;
+  font-size: 90px;
+  font-family: "Nunito", sans-serif;
+  margin-top: -25px;
+}
+.or {
+  color: white;
+  font-size: 30px;
+  font-family: "Nunito", sans-serif;
+  margin-top: 3%;
+  padding-bottom: 6%;
+}
+div.form {
+  position: absolute;
+  text-align: center;
+  background-color: transparent;
+  width: 100%;
+  height: 500px;
+  margin-top: -15%;
+  z-index: 3;
+}
+.leaveM {
+  color: white;
+  font-size: 30px;
+  margin-top: -7%;
+  font-family: "Nunito", sans-serif;
+}
+.form-input {
+  width: 50%;
+  height: 50px;
+  margin: 1%;
+  border-radius: 10px;
+}
+.form-input-lg {
+  width: 50%;
+  margin-top: 1%;
+  border-radius: 10px;
+}
+.form-row {
+}
+.floatingInput {
+  color: blue;
+}
+.contactDiv3 {
+  background-color: #fb9929;
+  z-index: 1;
+  position: relative;
+  height: 500px;
+}
+.formBtn {
+  background-color: #385efc;
+  color: #ffc09e;
+  width: 15%;
+  font-weight: 700;
+  border-radius: 24px !important;
+  height: 50px;
+  border-width: 0;
+  margin-top: -4%;
+  transition: 0.8s;
+  position: relative;
+  overflow: hidden;
+}
+.formBtn:hover {
+  background-color: #fca2d5;
+  color: #385efc;
+}
+
+@media screen and (max-width: 780px) {
+  .mainContact .email {
+    font-size: 35px;
+    margin-top: 2%;
+  }
+  .form-input {
+    width: 80%;
+  }
+  .form-input-lg {
+    width: 80%;
+  }
+  .formBtn {
+    width: 30%;
+  }
+}

@@ -1,0 +1,90 @@
+.profileDiv {
+  text-align: center;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  background-color: white;
+}
+
+.profileDiv h1 {
+  padding-top: 6%;
+  text-transform: capitalize;
+  font-size: 55px;
+  color: #385efc;
+  font-family: cursive, sans-serif;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.profileNav {
+  margin-top: 6%;
+  margin-left: 30%;
+}
+.profileDiv2 {
+  background-color: pink;
+}
+
+.infoDiv {
+  background-color: pink;
+}
+.shipDiv {
+  background-color: pink;
+}
+.infoDiv h2 {
+  margin-left: -69%;
+  margin-bottom: -8%;
+  color: white;
+  font-family: cursive;
+  font-weight: 300;
+}
+.formLabel {
+  margin-right: 70%;
+  text-transform: uppercase;
+  white-space: nowrap;
+  margin-bottom: 4%;
+  font-size: 14px;
+}
+.required {
+  color: red;
+}
+.profileDiv button {
+  background-color: #385efc;
+  color: #ffc09e;
+  width: 15%;
+  float: none;
+  font-weight: 700;
+  box-shadow: none;
+  text-shadow: none;
+  border-radius: 24px !important;
+  height: 50px;
+  border-width: 0;
+  margin-top: -12%;
+}
+.profileDiv button:hover {
+  background-color: pink;
+  transition: background 0.4s linear;
+  -webkit-transition: background 0.4s linear;
+  -moz-transition: background 0.4s linear;
+  -o-transition: background 0.4s linear;
+  -ms-transition: background 0.4s linear;
+  color: #385efc;
+}
+.addressLable {
+  margin-right: 86%;
+  text-transform: uppercase;
+  white-space: nowrap;
+  margin-bottom: 2%;
+  font-size: 14px;
+}
+.addressGroup {
+  margin-top: -24%;
+}
+.addressGroup2 {
+  margin-top: -34%;
+}
+.addressGroup3 {
+  margin-top: -44%;
+}
+.addressGroup4 {
+  margin-top: -54%;
+}
